@@ -8,7 +8,7 @@ import Admin from "./pages/admin/Admin";
 export default class App extends Component{
  render() {
    return(
-       <div>
+       <div className='app'>
            <Switch>
                <Route path='/login' component={Login}></Route>
                <Route path='/admin' component={Admin}></Route>
